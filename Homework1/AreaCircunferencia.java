@@ -8,7 +8,7 @@ public class AreaCircunferencia{
     double pi;
     pi = 3.1416;
     double area;
-    area = pi * r;
+    area = pi *(r*r);
     System.out.println("El area de la circunferencia es: "+ area);
   }
 }
