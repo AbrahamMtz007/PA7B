@@ -18,6 +18,8 @@ public class ComputeBMI{
     //double bmi = weightInKilograms / (heightInMeters * heightInMeters);
     double bmi = weightInKilograms / Math.pow(heightInMeters,2);
 
+    System.out.println("Your bmi is: "+ bmi);
+
     if (bmi < 16)
     System.out.println("Your are seriously underweight");
     else if(bmi < 18)
